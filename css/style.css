@@ -13,6 +13,10 @@ h1{
   color: #ffffff;
 }
 
+.darkFont{
+  color: azure;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -240,6 +244,7 @@ img{
 .home__image{
   width: 300px;
   justify-self: center;
+  border-radius: 15px;
 }
 
 .home__subtitle{

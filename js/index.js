@@ -2,7 +2,7 @@ ScrollReveal().reveal('section', {
   duration:2000,
   origin:'top',
   distance:'100px',
-  scale:1.1
+  scale:0.8
 })
 
 const showMenu=(toggleId, navId)=>{
@@ -23,6 +23,6 @@ function changeTheme() {
   let button=document.getElementById('theme-button');
   let body=document.getElementById('body');
     button.addEventListener('click', ()=>{
-      body.classList.toggle('dark')
+      body.classList.toggle('dark');
     })
 }
