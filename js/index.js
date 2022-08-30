@@ -1,4 +1,4 @@
-ScrollReveal().reveal('div', {
+ScrollReveal().reveal('section', {
   duration:2000,
   origin:'top',
   distance:'100px',
@@ -17,3 +17,12 @@ const showMenu=(toggleId, navId)=>{
 }
 
 showMenu('nav-toggle', 'nav-menu')
+
+
+function changeTheme() {
+  let button=document.getElementById('theme-button');
+  let body=document.getElementById('body');
+    button.addEventListener('click', ()=>{
+      body.classList.toggle('dark')
+    })
+}

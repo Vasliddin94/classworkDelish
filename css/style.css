@@ -8,6 +8,11 @@ h1{
   font-weight: 500;
 }
 
+.dark{
+  background-color: black;
+  color: #ffffff;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -19,6 +24,7 @@ body{
   color: var(--text-color);
   line-height: 1.6;
   font-family: var(--body-font);
+  transition: 0.5s;
 }
 
 h1, h2, h3, h4{

@@ -7,7 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body id="body">
     <!-- header -->
     <header class="l-header" id="header">
       <nav class="nav bd-container">
@@ -19,7 +19,7 @@
             <li class="nav__item"><a href="#service" class="nav__link">Service</a></li>
             <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
             <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
-            <li><i class='bx bx-moon change-theme' id='theme-button'></i></li>
+            <li><i class='bx bx-moon change-theme' id='theme-button'  onclick="changeTheme()"></i></li>
           </ul>
         </div>
         <div class="nav__toggle" id='nav-toggle'>
